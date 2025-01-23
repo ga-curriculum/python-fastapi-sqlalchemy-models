@@ -12,13 +12,27 @@ import "microlessons.pkl" as mls
 
 repo {
   // This name is shown in the header nav to navigate users home
-  friendlyName = "[tktk Headline]"
+  friendlyName = "Python and SQLAlchemy"
   // This must match the repo name as it appears on GitHub exactly
-  name = "tktk-module-name"
+  name = "python-and-sqlalchemy"
   type = "Lesson"
 }
 
 courses {
+  new {
+    name = "apd"
+    microlessons {
+      mls.setup
+      mls.concepts
+      mls.connectingToDatabase
+      mls.creatingModels
+      mls.buildingSeedingModule
+      mls.seedingDatabase
+      (mls.databaseTroubleshooting) {
+        type = "Level Up content"
+      }
+    }
+  }
   new {
     // Do not remove this fallback course!
     name = "fallback"
@@ -26,11 +40,11 @@ courses {
       // Add microlessons here, in the order they should be delivered
       mls.setup
       mls.concepts
-      mls.microlesson01
-      // You can make course-specific adjustments using a syntax like this:
-      (mls.microlesson02) {
-        type = "Level Up content"
-      }
+      mls.connectingToDatabase
+      mls.creatingModels
+      mls.buildingSeedingModule
+      mls.seedingDatabase
+      mls.databaseTroubleshooting
     }
   }
 }

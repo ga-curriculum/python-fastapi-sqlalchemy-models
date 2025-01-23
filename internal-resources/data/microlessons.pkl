@@ -16,16 +16,37 @@ concepts = new Template.Microlesson {
   videoUrl = ""
 }
 
-microlesson01 = new Template.Microlesson {
-  friendlyName = "Microlesson 01"
-  dirName = "microlesson-01"
+connectingToDatabase = new Template.Microlesson {
+  friendlyName = "Connecting to the Database"
+  dirName = "connecting-to-the-database"
   type = "Content"
   videoUrl = ""
 }
 
-microlesson02 = new Template.Microlesson {
-  friendlyName = "Microlesson 02"
-  dirName = "microlesson-02"
+creatingModels = new Template.Microlesson {
+  friendlyName = "Creating Models"
+  dirName = "creating-models"
+  type = "Content"
+  videoUrl = ""
+}
+
+buildingSeedingModule = new Template.Microlesson {
+  friendlyName = "Building a Seeding Module"
+  dirName = "building-a-seeding-module"
+  type = "Content"
+  videoUrl = ""
+}
+
+seedingDatabase = new Template.Microlesson {
+  friendlyName = "Seeding the Database"
+  dirName = "seeding-the-database"
+  type = "Content"
+  videoUrl = ""
+}
+
+databaseTroubleshooting = new Template.Microlesson {
+  friendlyName = "Database Troubleshooting"
+  dirName = "database-troubleshooting"
   type = "Content"
   videoUrl = ""
 }

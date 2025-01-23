@@ -1,21 +1,24 @@
 <h1>
   <span class="prefix"></span>
-  <span class="headline">[tktk Headline]</span>
+  <span class="headline">Python and SQLAlchemy</span>
 </h1>
 
 ## About
 
-tktk Write a short but descriptive summary of the content in this module.
+In this module, you'll set up a local PostgreSQL database instance and connect it to your application. The focus is on creating a real SQLAlchemy model and seeding your database with initial data. By the end of this module, you'll have a working database with seeded data that is ready to be integrated into your application. Adapting your API to use this database and model will be covered in a future part of this lecture series.
 
 ## Content
 
-| Lesson | Est. Delivery Time | Skills |
-| ------ |:------------------:| ------ |
-| [Setup](./setup/README.md)                          | -- | Set up the development environment. |
-| [Concepts](./concepts/README.md)                    | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-01/README.md) | -- | tktk Skills to cover                |
-| [tktk Microlesson Name](./microlesson-02/README.md) | -- | tktk Skills to cover                |
-| **Total content**                                   | -- |                                     |
+| Lesson                                                               | Est. Delivery Time | Skills                                                                 |
+| -------------------------------------------------------------------- | :----------------: | ---------------------------------------------------------------------- |
+| [Setup](./setup/README.md)                                           |       5 min        | Set up the development environment.                                    |
+| [Concepts](./concepts/README.md)                                     |       5 min        | Understand foundational concepts for SQLAlchemy and ORMs.              |
+| [Connecting to the Database](./connecting-to-the-database/README.md) |       15 min       | Establish a connection between Python and a local PostgreSQL database. |
+| [Creating Models](./creating-models/README.md)                       |       10 min       | Define database models to represent your application's data structure. |
+| [Building a Seeding Module](./building-a-seeding-module/README.md)   |       15 min       | Develop a Python module to populate the database with initial data.    |
+| [Seeding the Database](./seeding-the-database/README.md)             |       10 min       | Populate your PostgreSQL database with real data.                      |
+| [Database Troubleshooting](./database-troubleshooting/README.md)     |       10 min       | Debug and resolve common PostgreSQL configuration issues.              |
+| **Total content**                                                    |      ~ 70 min      |                                                                        |
 
 ## References
 
@@ -25,32 +28,16 @@ tktk Write a short but descriptive summary of the content in this module.
 
 ### Prerequisites
 
-- tktk
-- tktk
-- tktk
+- Python FastAPI MVC CRUD App Build
 
 ### Starter code
 
-tktk If there is not a starter code repo that students will use to start this lesson, then this section and all of its content should be removed.
-
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Solution code
-
-tktk If there is not solution code related to this module this section and all of its content should be removed.
-
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/tktk)
-
-### Deployed site
-
-tktk If there is not a deployed site related to this module this section and all of its content should be removed.
-
-🌐 [Live site](https://generalassemb.ly/tktk)
+🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-app-build-solution)
 
 ### Course landing pages
 
-- [tktk-course-acronym - tktk Course Full Name](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/tktk-course-acronym.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/tktk-module-name/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-and-sqlalchemy/canvas-landing-pages/apd.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-and-sqlalchemy/canvas-landing-pages/fallback.html)
 
 ### Resources
 

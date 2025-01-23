@@ -1,4 +1,3 @@
-<!-- ! Do not delete or rename this file! -->
 <h1>
   <span class="prefix"></span>
   <span class="headline">Python and SQLAlchemy</span>
@@ -18,8 +17,14 @@ In this module, you'll set up a local PostgreSQL database instance and connect i
 | [Creating Models](../creating-models/README.md)                       |       10 min       | Define database models to represent your application's data structure. |
 | [Building a Seeding Module](../building-a-seeding-module/README.md)   |       15 min       | Develop a Python module to populate the database with initial data.    |
 | [Seeding the Database](../seeding-the-database/README.md)             |       10 min       | Populate your PostgreSQL database with real data.                      |
-| [Database Troubleshooting](../database-troubleshooting/README.md)     |       10 min       | Debug and resolve common PostgreSQL configuration issues.              |
-| **Total content**                                                     |      ~ 70 min      |                                                                        |
+| **Total content**                                                     |       60 min       |                                                                        |
+
+## Level Up content
+
+| Lesson                                                            | Est. Delivery Time | Skills                                                    |
+| ----------------------------------------------------------------- | :----------------: | --------------------------------------------------------- |
+| [Database Troubleshooting](../database-troubleshooting/README.md) |       10 min       | Debug and resolve common PostgreSQL configuration issues. |
+| **Total Level Up content**                                        |      ~ 10 min      |                                                           |
 
 ## References
 
