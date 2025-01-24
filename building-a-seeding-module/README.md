@@ -65,7 +65,7 @@ mkdir data
 Now move the old existing `models/tea_data.py` to `data`:
 
 ```sh
-mv models/tea_data.py data`
+mv models/tea_data.py data
 ```
 
 Edit `data/tea_data.py`, delete the existing content, and add the following:
