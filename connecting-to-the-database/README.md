@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Python and SQLAlchemy</span>
+  <span class="headline">FastAPI SQLAlchemy Models</span>
   <span class="subhead">Connecting to the Database</span>
 </h1>
 

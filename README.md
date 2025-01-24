@@ -1,6 +1,6 @@
 <h1>
-  <span class="prefix"></span>
-  <span class="headline">Python and SQLAlchemy</span>
+  <span class="prefix">Python</span>
+  <span class="headline">FastAPI SQLAlchemy Models</span>
 </h1>
 
 ## About
@@ -28,16 +28,16 @@ In this module, you'll set up a local PostgreSQL database instance and connect i
 
 ### Prerequisites
 
-- Python FastAPI MVC CRUD App Build
+- Python FastAPI MVC CRUD Build
 
 ### Starter code
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-app-build-solution)
+🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-build-solution)
 
 ### Course landing pages
 
-- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-and-sqlalchemy/canvas-landing-pages/apd.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-and-sqlalchemy/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models/canvas-landing-pages/apd.html)
+- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models/canvas-landing-pages/fallback.html)
 
 ### Resources
 

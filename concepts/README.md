@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Python and SQLAlchemy</span>
+  <span class="headline">FastAPI SQLAlchemy Models</span>
   <span class="subhead">Concepts</span>
 </h1>
 
@@ -38,5 +38,4 @@ SQLAlchemy takes care of the complex details of communicating with the database 
 
 2. Then we're then going to be writing a small Python script, called `seed.py`. This little program will be able to put some initial data into our SQL Database, using our `models`.
 
-
-Let's get started! 
+Let's get started!

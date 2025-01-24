@@ -1,5 +1,5 @@
 <h1>
-  <span class="headline">Python and SQLAlchemy</span>
+  <span class="headline">FastAPI SQLAlchemy Models</span>
   <span class="subhead">Seeding the Database</span>
 </h1>
 
@@ -24,7 +24,6 @@ psql teas_db -U postgres
 ```
 
 Type `\q` and hit enter to exit the `psql` shell.
-
 
 <blockquote class="warning">
   🚨 Having issues with your password? See the troubleshooting section at the bottom of this page!
@@ -73,7 +72,6 @@ Well done! Remember, our API still does not use our database. We have a database
 ## Troubleshooting: Resetting PostgreSQL Password
 
 This guide demonstrates how to reset the PostgreSQL `postgres` user password using the command line.
-
 
 1. **Stop PostgreSQL Service**
 

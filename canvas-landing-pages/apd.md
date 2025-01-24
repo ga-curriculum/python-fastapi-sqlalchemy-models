@@ -1,6 +1,6 @@
 <h1>
-  <span class="prefix"></span>
-  <span class="headline">Python and SQLAlchemy</span>
+  <span class="prefix">Python</span>
+  <span class="headline">FastAPI SQLAlchemy Models</span>
 </h1>
 
 ## About

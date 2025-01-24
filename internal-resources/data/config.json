@@ -4,8 +4,8 @@
     "name": "modular-curriculum-all-courses"
   },
   "repo": {
-    "friendlyName": "Python and SQLAlchemy",
-    "name": "python-and-sqlalchemy",
+    "friendlyName": "FastAPI SQLAlchemy Models",
+    "name": "python-fastapi-sqlalchemy-models",
     "type": "Lesson",
     "about": "",
     "starterCode": "",
