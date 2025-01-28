@@ -51,7 +51,6 @@ try:
     print("Database seeding complete! 👋")
 except Exception as e:
     print("An error occurred:", e)
-
 ```
 
 ## Modularizing the applications data
