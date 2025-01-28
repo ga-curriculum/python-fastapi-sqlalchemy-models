@@ -48,9 +48,9 @@ try:
     db.commit()
     db.close()
 
-    print("bye 👋")
+    print("Database seeding complete! 👋")
 except Exception as e:
-    print(e)
+    print("An error occurred:", e)
 
 ```
 
