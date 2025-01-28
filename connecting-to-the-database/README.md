@@ -22,7 +22,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker, Session
 from config.environment import db_URI
 
-# ! Connect FastAPI with SQLAlchemy
+# Connect FastAPI with SQLAlchemy
 engine = create_engine(
     db_URI
 )
