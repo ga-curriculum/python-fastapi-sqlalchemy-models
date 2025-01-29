@@ -36,6 +36,10 @@ If you have a complete, working application from the `Python FastAPI MVC CRUD Bu
 
 🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-build-solution)
 
+### Solution code
+
+🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models-solution)
+
 ### Course landing pages
 
 - [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models/canvas-landing-pages/apd.html)
