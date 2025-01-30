@@ -43,34 +43,7 @@ Here we're doing a few things:
 - Then, we create an engine and a `SessionLocal` class with `create_engine` and `sessionmaker`. The `SessionLocal` class is our actual database session.
 - The `get_db` function is a dependency that can be included in the path operation functions. This function creates a new session and closes it once the request is finished.
 
-Now let's update `main.py`:
-
-**main.py**
-
-```py
-# main.py
-
-from fastapi import FastAPI
-# Let's import some of the SQLAlchemy libraries that we'll need
-from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker, Session
-# Let's also import the database uri, which will point to our teas_db
-from config.environment import db_URI
-from controllers.teas import router as TeasRouter
-from database import get_db  # import get_db from database.py
-
-app = FastAPI()
-
-app.include_router(TeasRouter, prefix="/api")
-
-@app.get('/')
-def home():
-    return 'Hello World!'
-```
-
-Here we're pulling in the necessary packages as well as the `get_db` function we just created.
-
-We're also importing a `db_URI` from an environment file. This file will configure environment variables that can change depending on what environment we're running our FastAPI app in (the values might be different in a testing environment vs our local environment).
+### Create a `config` file to hold our `db_URI`
 
 Create the directory `config`:
 
