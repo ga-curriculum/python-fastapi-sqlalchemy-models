@@ -32,8 +32,6 @@ In this module, you'll set up a local PostgreSQL database instance and connect i
 
 ### Starter code
 
-If you have a complete, working application from the `Python FastAPI MVC CRUD Build` Lesson, you may choose to use that codebase as starter code instead of the repo provided below.
-
 🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-build-solution)
 
 ### Solution code
