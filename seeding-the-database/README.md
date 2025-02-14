@@ -43,4 +43,6 @@ You should see something like the following:
 |  9 | jasmine          | t        |      3 |
 ```
 
-Well done! Remember, our API still does not use our database. We have a database and have seeded it with data, but we still need to link this up to our API.
+Well done! 🚀 Remember, our API still does not use our database. We have a database and have seeded it with data, but we still need to link this up to our API. 
+
+We'll explore this in a future lesson.
