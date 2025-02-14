@@ -77,7 +77,7 @@ PostgreSQL is configured to use a specific authentication method called **"ident
 
 In order to resolve this issue, we’ll change the authentication method to **"md5"**, which uses password-based authentication instead of the system's username.
 
-## Steps to fix the issue
+### Steps to fix the issue
 
 Only follow these steps if you see the **ident authentication failed** error. These changes are specific to the way PostgreSQL handles authentication and should only be done in this situation.
 
@@ -134,3 +134,39 @@ With the updated authentication method, you should now be able to run the `seed.
 ```bash
 pipenv run python seed.py
 ```
+
+## Troubleshooting: Resetting PostgreSQL Password if using postgres superuser
+
+This guide demonstrates how to reset the PostgreSQL `postgres` user password using the command line.
+
+1. **Stop PostgreSQL Service**
+
+```bash
+ sudo systemctl stop postgresql
+```
+
+```bash
+ sudo -u postgres postgres --single -D /var/lib/pgsql/data
+```
+
+2. **Change Password Inside PostgreSQL Prompt**
+
+   Once inside the PostgreSQL single-user mode prompt, type the following command:
+
+```bash
+ alter user postgres with password 'postgres';
+```
+
+3. **Start PostgreSQL Service**
+
+```bash
+ sudo systemctl start postgresql
+```
+
+4. **Verify the Password Change**
+
+```bash
+ psql -U postgres
+```
+
+5. You can now log into **PostgreSQL** with the new password.
