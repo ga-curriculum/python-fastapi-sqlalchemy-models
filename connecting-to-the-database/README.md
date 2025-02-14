@@ -5,6 +5,52 @@
 
 **Learning objective:** By the end of this lesson, students will be able to connect their FastAPI application to a PostgreSQL database using the SQLAlchemy ORM.
 
+# Creating a database for Teas
+
+### Open the `psql` shell as your `<username>`
+
+If you are using **Mac or Linux**, open a terminal and run:
+
+```bash
+psql -U <username>
+```
+
+If you are on **Windows**, use:
+
+```powershell
+psql -U <username> -h localhost
+```
+
+This connects you as the username you created.
+
+> **If you get a "role does not exist" error**, you need to create the `<username>` user first:
+>
+> ```sql
+> CREATE ROLE "<username>" WITH LOGIN PASSWORD 'your_secure_password';
+> ```
+>
+> Then, try connecting again.
+
+### Create the `teas_db` database
+
+Inside the `psql` shell, run:
+
+```sql
+CREATE DATABASE teas_db;
+```
+
+This creates a new PostgreSQL database named `teas_db`.
+
+### Verify that the database was created
+
+Run:
+
+```sql
+\l
+```
+
+This lists all databases. You should see `teas_db` in the list.
+
 ## Connecting our app to a database
 
 First, we need to setup the database connection in a separate file called `database.py`.
@@ -65,4 +111,5 @@ db_URI = "postgresql://<username>@localhost:5432/teas_db"
 ```
 
 This connection string will connect to the local PostgreSQL `teas_db` database on your system.
+
 - **_Modify your database connection string to use your username as the `<username>`._**
