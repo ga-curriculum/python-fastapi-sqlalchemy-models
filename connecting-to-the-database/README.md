@@ -61,7 +61,7 @@ Add the following to your new `config` file:
 
 ```py
 # config/environment.py
-db_URI = "postgresql://postgres:postgres@localhost:5432/teas_db"
+db_URI = "postgresql://<username>@localhost:5432/teas_db"
 ```
 
 This connection string will connect to the local PostgreSQL `teas_db` database on your system.
