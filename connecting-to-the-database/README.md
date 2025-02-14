@@ -65,3 +65,4 @@ db_URI = "postgresql://<username>@localhost:5432/teas_db"
 ```
 
 This connection string will connect to the local PostgreSQL `teas_db` database on your system.
+- **_Modify your database connection string to use your username as the `<username>`._**
