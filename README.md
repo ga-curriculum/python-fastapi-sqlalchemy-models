@@ -40,8 +40,8 @@ In this module, you'll set up a local PostgreSQL database instance and connect i
 
 ### Course landing pages
 
-- [APD - Advanced Python for Developers](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models/canvas-landing-pages/apd.html)
-- [Fallback](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models/canvas-landing-pages/fallback.html)
+- [APD - Advanced Python for Developers](https://ga-curriculum.github.io/python-fastapi-sqlalchemy-models/canvas-landing-pages/apd.html)
+- [Fallback](https://ga-curriculum.github.io/python-fastapi-sqlalchemy-models/canvas-landing-pages/fallback.html)
 
 ### Resources
 
@@ -53,4 +53,4 @@ In this module, you'll set up a local PostgreSQL database instance and connect i
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://pages.git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/module-feedback.html)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga-curriculum.github.io/universal-resources-internal/module-feedback.html)!**
