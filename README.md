@@ -32,11 +32,11 @@ In this module, you'll set up a local PostgreSQL database instance and connect i
 
 ### Starter code
 
-🟢 [Starter code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-build-solution)
+🟢 [Starter code](https://github.com/ga-curriculum/python-fastapi-mvc-crud-build-solution)
 
 ### Solution code
 
-🏁 [Solution code](https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-sqlalchemy-models-solution)
+🏁 [Solution code](https://github.com/ga-curriculum/python-fastapi-sqlalchemy-models-solution)
 
 ### Course landing pages
 

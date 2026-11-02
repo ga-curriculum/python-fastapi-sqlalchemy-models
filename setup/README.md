@@ -14,7 +14,7 @@ In this lesson, we’ll start by working with a pre-existing application that de
 We’ve provided a starter repository with the base application code. Clone the repository to your local machine and rename the folder for this lesson:
 
 ```bash
-git clone https://git.generalassemb.ly/modular-curriculum-all-courses/python-fastapi-mvc-crud-build-solution python-fastapi-sqlalchemy-models
+git clone https://github.com/ga-curriculum/python-fastapi-mvc-crud-build-solution python-fastapi-sqlalchemy-models
 cd python-fastapi-sqlalchemy-models
 ```
 
